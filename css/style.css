@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+}
+
+.contenedor{
+	background:#9F281C;
+}
+
+#Banner1{
+	height: 50px;
+	background: #003E91;
+}
+
+#Banner2{
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+}
+
+#logo{
+	max-width: 300px;
+}
+
+#titulo{
+	height:80px;
+	background:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#titulo2{
+	color:#9F281C;
+	font-size:30px;
+	font-family:helvetica, arial;
+}
+
+#inscrip2{
+	font-size:28px;
+	font-family:helvetica;
+	color:#9F281C;
+}
+
+
+
+
+#inscrip{
+	height:100px;
+	background:#FFD011;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#inscrip > a{
+	text-decoration:none;
+}
+
+#textoinsc{
+	color:white;
+	font-family:arial;
+	font-size:32px;
+}
+
+#indic{
+	height:80px;
+	background:#003E91;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#indicacion{
+	color:#FFFFFF;
+	font-family:helvetica, calibri;
+	font-size:23px;
+}
+
+
+
+
+nav{
+	padding:15px 27px 17px 27px; 
+	display: flex;
+
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+nav > a{
+	display: flex;
+	text-decoration:none;
+	
+}
+
+nav > a >section > p{
+	padding-top: 34%;
+}
+
+#BT1{
+	width: 290px;
+	height: 240px;
+	background: #003E91;
+	font-size: 28px;
+	font-family:helvetica;
+	color:#ffffff;
+	border-radius:17px;
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-left:30px;
+}
+
+#BT1:hover{
+	box-shadow: 7px 7px 31px 0px black;
+}
+
+#BT2{
+	width: 290px;
+	height: 240px;
+	background: #003E91;
+	font-size: 26px;
+	font-family:helvetica;
+	color:#ffffff;
+	border-radius:17px;
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-left:30px;
+}
+
+#BT2:hover{
+	box-shadow: 7px 7px 31px 0px black;
+}
+
+#BT3{
+	width: 290px;
+	height: 240px;
+	background: #003E91;
+	font-size: 28px;
+	font-family:helvetica;
+	color:#ffffff;
+	border-radius:17px;
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-left:30px;
+}
+
+#BT3:hover{
+	box-shadow: 7px 7px 31px 0px black;
+}
+
+footer{
+	width:100%;
+	position: absolute;
+	bottom:;
+}
+
+#Banner3{
+	height: 50px;
+	background: #003E91;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#derechos{
+	font-size:18px;
+	font-family:helvetica;
+	color:#ffffff;
+}
+
+@media (max-width: 485px) {
+
+		
+		footer{
+		text-align:center;
+		}
+
+		#titulo2{
+			font-size:24px;
+			text-align:center;
+		}
+
+		
+
+
+}

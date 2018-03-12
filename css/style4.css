@@ -1,0 +1,187 @@
+#indic > section > a{
+	text-decoration:none; color:#ffffff;
+}
+
+.material{
+	display: flex;
+	justify-content:space-between;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.material{
+	width:100%;
+	padding-bottom:30px;
+	margin: 30px 0 0px 0px;
+
+}
+
+#menu{
+	margin-left:5%;
+	background-color:;
+	width:40%;
+}
+
+
+#boton{
+	width:40%;
+	height:60px;
+	background:#FFD011;
+	margin-left:6%;
+	margin-bottom:2%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+#boton > section{
+	color:#ffffff;
+	font-family:helvetica;
+	font-size:20px;
+}
+
+#boton > section > a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+
+
+
+.examen{
+	margin:0 0 0 -50px;
+	padding:15px 27px 0px 7px;
+	background-color:;
+}
+
+#enlace{
+	text-decoration:none;
+}
+
+.examen > a{
+	display: flex;
+	text-decoration:none;
+}
+
+.examen > a > section{
+	width: 290px;
+	height: 240px;
+	background: #003E91;
+	font-size: 32px;
+	font-family:helvetica;
+	color:#ffffff;
+	border-radius:17px;
+	margin: 20px 30px 20px 40px;
+}
+
+.examen > a > section:hover{
+	box-shadow: 7px 7px 31px 0px black;
+}
+
+.examen > a > section > p{
+	padding-top: 32%;
+}
+
+
+
+
+#Banner3{
+	background: #003E91;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 885px) {
+
+
+		#boton{
+			width:px;
+			height:60px;
+			background:#FFD011;
+			margin:auto;
+			margin-bottom:2%;
+			display: flex;
+			justify-content: center;
+			align-items:center;
+		}
+
+		#menu{
+			background-color:;
+			width:100%;
+			align-content:center;
+			margin-left:auto;
+			align-content:center;
+		}
+
+		#boton{
+				width:250px;
+				height:60px;
+				background:#FFD011;
+				margin-left:15%;
+				margin-bottom:2%;
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				align-content:center;
+		}
+
+		.examen{
+			margin:auto;
+		}
+
+		.panel{
+			width: 700px;
+		}
+
+}
+
+@media (max-width: 785px) {
+	.panel{
+			width: 700px;
+		}
+}
+
+@media (max-width: 749px) {
+	.panel{
+			width: 600px;
+		}
+}
+
+@media (max-width: 659px) {
+	.panel{
+			width: 400px;
+		}
+
+		#menu{
+			padding-left:0px;
+			display:;
+			align-content:center;
+		}
+}
+
+@media (max-width: 485px) {
+	.panel{
+			width: 300px;
+		}
+}
+
+@media (max-width: 385px) {
+	.panel{
+			width: 300px;
+			margin-left:-20px;
+		}
+}
+
+@media (max-width: 285px) {
+	.panel{
+			width: 200px;
+		}
+}
+
+@media (max-width: 185px) {
+	.panel{
+			width: 200px;
+		}
+}

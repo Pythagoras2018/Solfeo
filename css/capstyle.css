@@ -1,0 +1,209 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#banner1{ /* Franja azul sin texto */
+	height: 50px;
+	background: #003E91;
+}
+
+
+
+#logo{ /* imagen de encabezdo */
+
+}
+
+#logo > section{
+	display:flex;
+	justify-content:center;
+}
+
+#logo > section > a > img{
+	width: 400px;
+}
+
+#taller{ /* nombre del taller */
+	height:80px;
+	background:#ffffff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#taller > section{
+	color:#9F281C;
+	font-size:30px;
+	font-family:helvetica, arial;
+}
+
+#capitulo{ /* nombre del capitulo */
+	height:80px;
+	background:#003E91;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#capitulo > section{
+	color:#FFFFFF;
+	font-family:helvetica, calibri;
+	font-size:23px;
+}
+
+#capitulo > section > a{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#material{ /* capsula de menus y examen */
+	padding:30px 10px 30px 10px ;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background:#9F281C;
+}
+
+#menu{ /* Contenido del capitulo y material */
+	width:550px;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	margin:10px;
+}
+
+#menu > section{
+	width: 100%;
+}
+
+#enc1{
+	height:50px;
+	background:#337AB7;
+	color:#ffffff;
+	font-family:helvetica;
+	display:flex;
+	justify-content:flex-start;
+	padding-left:5%;
+	align-items:center; 
+	border-radius:13px 13px 0 0;
+}
+
+#enc2{
+	height:50px;
+	background:#ffffff;
+	color:#000000;
+	font-family:helvetica;
+	display:flex;
+	justify-content:flex-start;
+	padding-left:10%;
+	align-items:center;
+}
+
+#menu > #boton{
+	width:40%;
+	height:60px;
+	background:#FFD011;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin:20px 0 0 0;
+}
+
+#boton > a{
+	text-decoration:none;
+}
+
+#boton > a > section{
+	color:white;
+	font-size:24px;
+	font-family:arial;
+}
+
+#examen{
+	margin: 10px 10px 10px 110px ;
+}
+
+#examen > a{
+	text-decoration:none;
+}
+
+#examen > a > section{
+	width: 290px;
+	height: 240px;
+	background: #003E91;
+	font-size: 32px;
+	font-family:helvetica;
+	color:#ffffff;
+	border-radius:17px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+#banner2{ /* Franja de color de footer */
+	height: 50px;
+	background: #003E91;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#derechos{ /* Descripcion de copyright */
+	font-size:18px;
+	font-family:helvetica;
+	color:#ffffff;
+}
+
+@media (max-width: 800px) {
+	#material{
+		flex-wrap:wrap;
+		justify-content:center;
+	}
+
+	#menu{
+		width: 700px;
+	}
+
+	#examen{
+		margin:40px 10px 20px 10px;
+	}
+}
+
+@media (max-width: 385px) {
+
+	#logo > section > a > img{
+		width:300px;
+	}
+
+	#boton > a > section{
+		font-size:19px;
+	}
+
+}
+
+@media (max-width: 345px) {
+	#examen > a > section{
+		width: 230px;
+		height: 180px;
+	}
+}
+
+@media (max-width: 297px) {
+
+	#logo > section > a > img{
+		width:200px;
+	}
+
+	#boton > a > section{
+		font-size:15px;
+	}
+
+}
+
+@media (max-width: 197px) {
+
+	#logo > section > a > img{
+		width:140px;
+	}
+}

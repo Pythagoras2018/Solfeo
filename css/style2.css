@@ -1,0 +1,25 @@
+button.accordion {
+    background-color:#FFD011;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 23px;
+    font-family:arial;
+    transition: 0.4s;
+}
+
+button.accordion:hover {
+    background-color:#003E91;
+    color:#ffffff;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
